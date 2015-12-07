@@ -1,0 +1,114 @@
+/*CSS Stylesheet*/
+
+/** {border: 1px solid black;}*/
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #49bae2;
+}
+img {
+    max-width: 100%;
+}
+
+wrapper {
+    width:1080px;
+    margin-top: -30%;
+}
+
+
+#title {
+    
+    position: fixed;
+    width: 1080px;
+    height:auto;
+    margin-left: -390px;
+    margin-top: 150px;
+    z-index: 0;
+}
+
+.donuts {
+    margin-top: -800px;
+    z-index: 999;
+    position: relative;
+    
+}
+#one {
+    
+animation: dropone 4s infinite;
+animation-delay: .1;
+}
+
+#two {
+
+animation: droptwo 5.5s infinite;
+animation-delay: 0;
+}
+
+#three {
+
+animation: dropthree 4.5s infinite;
+animation-delay: 0;
+}
+
+#four {
+
+animation: dropfour 5s infinite;
+animation-delay: .1;
+    
+}
+
+#five {
+    margin-top: -70%;
+    z-index: 999;
+    margin-left:500px;
+    position: relative;
+    animation: dropfive 6s infinite;
+animation-delay: 0s;
+    
+}
+
+#six {
+    margin-top: -70%;
+    z-index: 999;
+   margin-left:200px;
+    position: relative;
+    animation: dropsix 5s infinite;
+animation-delay: 0s;  
+    
+}
+
+@keyframes dropone {
+    
+    0% { top: -1000px;}  
+    100% { top: 1300px;}
+}
+
+@keyframes droptwo {
+    
+    0% { top: -600px;}  
+    100% { top: 1500px;}
+}
+
+@keyframes dropthree {
+    
+    0% { top: -600px;}  
+    100% { top: 1500px;}
+}
+@keyframes dropfour {
+    
+    0% { top: -600px;}  
+    100% { top: 1500px;}
+}
+
+@keyframes dropfive {
+    
+    0% { top: -600px;}  
+    100% { top: 2000px;}
+}
+
+@keyframes dropsix {
+    
+    0% { top: -700px;}  
+    100% { top: 2000px;}
+}
